@@ -46,7 +46,9 @@ def main():
 					
 				
 				#If the file types do not match
-				if extf != ftype:
+				if extf != ftype and \
+					ftype in ["png", "jpg", "jpeg", "ogg", "mp4",
+						"flac", "rtf", "html", "pdf", "tiff", "gif"]:
 					#Add back the period for the file type
 					final_type = ("." + ftype)
 					#Set the new name
