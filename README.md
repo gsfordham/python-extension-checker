@@ -7,7 +7,7 @@ This script will check the current directory in the terminal for files with bad 
 During execution, it will ask if you wish to continue, update you every 50 files, and then print the total number of files renamed and the total size of the directory.
 
 <b>Why/Reasoning:</b>
-Many desktop environments generate previews based on the file extension, so this should make sure the previews will work.
+Many file managers generate previews based on the file extension, so this should make sure the previews will work.
 
 <b>Requires:</b>
 <ul>
